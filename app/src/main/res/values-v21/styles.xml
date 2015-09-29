@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:colorPrimary">#67b1d6</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:colorPrimaryDark">#548faf</item>
+        <item name="android:windowBackground">@color/action_bar_text</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/action_bar_style</item>
+    </style>
+
+    <style name="action_bar_style" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/action_bar_text_style</item>
+        <item name="android:background">@color/action_bar_background</item>
+
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/action_bar_text_style</item>
+        <item name="background">@color/action_bar_background</item>
+    </style>
+
+    <style name="action_bar_text_style" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_text</item>
+    </style>
+
+    <!-- Search Activity Theme -->
+    <style name="SearchTheme" parent="Theme.AppCompat.Light"/>
+
+    <color name="action_bar_background">#67b1d6</color>
+    <color name="action_bar_text">#ffffff</color>
+    <color name="text_color_dark">#44708a</color>
+    <color name="indicator_light">#cfcfcf</color>
+    <color name="indicator_dark">#67b1d6</color>
+    <color name="bgcolor">#e8e8e8</color>
+    <color name="searchbar_hint_color">#a7a6ac</color>
+    <color name="searchbar_text_color">#9796ac</color>
+    <color name="separator_color">#b7b6bc</color>
+
+</resources>

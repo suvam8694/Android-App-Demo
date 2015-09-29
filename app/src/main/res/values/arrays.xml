@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="slide_menu_image_array">
+        <item>@drawable/ic_slide_menu_home</item>
+        <item>@drawable/ic_slide_menu_search</item>
+        <item>@drawable/ic_slide_menu_categories</item>
+        <item>@drawable/ic_slide_menu_support</item>
+        <item>@drawable/ic_slide_menu_settings</item>
+    </array>
+
+    <array name="banner_image_array">
+        <item>@drawable/banner_image_1</item>
+        <item>@drawable/banner_image_2</item>
+        <item>@drawable/banner_image_3</item>
+    </array>
+
+    <array name="product_image_array">
+        <item>@drawable/cables</item>
+        <item>@drawable/charger</item>
+        <item>@drawable/lorem</item>
+        <item>@drawable/watch</item>
+        <item>@drawable/batteries</item>
+    </array>
+
+    <array name="product_name_array">
+        <item>Cables</item>
+        <item>Charger</item>
+        <item>Lorem</item>
+        <item>Watch</item>
+        <item>Batteries</item>
+    </array>
+
+</resources>
